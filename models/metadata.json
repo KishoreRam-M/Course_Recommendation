@@ -1,0 +1,63 @@
+{
+  "best_model_name": "Logistic Regression",
+  "classes": [
+    "Arts And Humanities",
+    "Business",
+    "Computer Science",
+    "Data Science",
+    "Health",
+    "Information Technology",
+    "Language Learning",
+    "Math And Logic",
+    "Personal Development",
+    "Physical Science And Engineering",
+    "Social Sciences"
+  ],
+  "n_features": 25000,
+  "n_train": 4328,
+  "n_test": 1083,
+  "leaderboard": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 79.96,
+      "F1-Score (weighted)": 79.95,
+      "Train Time (s)": 6.1
+    },
+    {
+      "Model": "Linear SVM",
+      "Accuracy": 79.41,
+      "F1-Score (weighted)": 79.29,
+      "Train Time (s)": 0.3
+    },
+    {
+      "Model": "Multinomial NaiveBayes",
+      "Accuracy": 77.01,
+      "F1-Score (weighted)": 77.11,
+      "Train Time (s)": 0.0
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 70.45,
+      "F1-Score (weighted)": 69.04,
+      "Train Time (s)": 0.3
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Accuracy": 70.54,
+      "F1-Score (weighted)": 70.54,
+      "Train Time (s)": 20.9
+    }
+  ],
+  "columns": [
+    "url",
+    "name",
+    "category",
+    "what_you_learn",
+    "skills",
+    "language",
+    "instructors",
+    "content",
+    "combined_text",
+    "clean_text"
+  ]
+}
